@@ -1,0 +1,15 @@
+﻿<Window
+    x:Class="P3DReceiver.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="FS Receiver Panel"
+    WindowStyle="None"
+    ResizeMode="NoResize"
+    Background="Black">
+    <Grid>
+        <Image
+            Name="img"
+            MouseDown="Window_MouseDown"
+            Stretch="Uniform" />
+    </Grid>
+</Window>
